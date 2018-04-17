@@ -6,14 +6,14 @@ This is an example project which combines SDL2 (and SDL2_image), CMake and Emscr
 
 Native:
 
-`mkdir build`
-`cmake ..`
-`make`
-`./main`
+1. `mkdir build`
+2. `cmake ..`
+3. `make`
+4. `./main`
 
 Web:
 
-`mkdir build`
-`emcmake cmake ..`
-`make`
-`python3 -m http.module` (or start a HTTP server some other way, running that command serves $CWD on localhos:8000)
+1. `mkdir build`
+2. `emcmake cmake ..`
+3. `make`
+4. `python3 -m http.module` (or start a HTTP server some other way, running that command serves $CWD on localhos:8000)
